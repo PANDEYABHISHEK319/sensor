@@ -20,9 +20,9 @@ public class MyService extends Service implements SensorEventListener {
 
 
 
-    public MyService(Context context) {
+    public MyService(Context applicationContext) {
         super();
-        this.abc =  context;
+        abc =  applicationContext;
     }
     public MyService(){
 
