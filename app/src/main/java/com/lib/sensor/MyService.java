@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 public class MyService extends Service implements SensorEventListener {
     private SensorManager sensorManager;
     private Sensor sensor;
-    private Context abc;
+    Context abc;
     SensorEventListener eventListener;
 
 
